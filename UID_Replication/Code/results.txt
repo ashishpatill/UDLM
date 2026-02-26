@@ -1,0 +1,42 @@
+============================================================
+CLASSIFICATION RESULTS (Table 1)
+============================================================
+
+| Experiment              | Accuracy | Weights (rounded to 2 decimal places) |
+|:------------------------|:---------|:--------------------------------------|
+Lexical Surprisal        : 95.94%    | [-0.28]                              |
+UIDglob (lex)            : 78.18%    | [-0.29]                              |
+UIDloc (lex)             : 86.26%    | [-0.15]                              |
+UIDglobNorm (lex)        : 94.75%    | [-26.1]                              |
+UIDlocNorm (lex)         : 95.01%    | [-14.26]                             |
+UIDlocPrevNorm (lex)     : 86.34%    | [-0.03]                              |
+Lex+UIDglob              : 95.89%    | [-0.03, -0.27]                       |
+Lex+UIDloc               : 96.79%    | [-0.05, -0.24]                       |
+Lex+UIDglobNorm          : 95.94%    | [0.0, -0.28]                         |
+Lex+UIDlocNorm           : 96.58%    | [-3.57, -0.23]                       |
+Syntactic Surprisal      : 90.98%    | [-0.35]                              |
+UIDglob (syn)            : 91.20%    | [1.05]                               |
+Syn+UIDglob              : 91.86%    | [0.36, -0.24]                        |
+
+
+============================================================
+CORRELATION ANALYSIS (Table 2)
+============================================================
+
+Lexical Surprisal vs UID:
+| UID Measure        | Pearson Correlation |
+|:-------------------|:--------------------|
+UIDglob             | -0.0218             |
+UIDloc              | -0.1868             |
+UIDglobNorm         | 0.3979              |
+UIDlocNorm          | 0.1942              |
+UIDlocPrevNorm      | -0.0261             |
+
+Syntactic Surprisal vs UID:
+| UID Measure        | Pearson Correlation |
+|:-------------------|:--------------------|
+UIDglob             | -0.3970             |
+UIDloc              | -0.3886             |
+UIDglobNorm         | 0.1351              |
+UIDlocNorm          | 0.0504              |
+UIDlocPrevNorm      | -0.2026             |

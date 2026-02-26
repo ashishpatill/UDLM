@@ -1,0 +1,50 @@
+
+Test 1: Token and Sentence classes
+Root: खाता
+Words: ['राम', 'खाता']
+Result: Test 1 passed!
+
+Test 2: CoNLL-U Parser
+Parsed 1 sentence(s)
+Text: राम खाता है
+Words: ['राम', 'खाता', 'है']
+Result: Test 2 passed!
+
+Test 2B: CoNLL-U parsing with conllu library
+Parsed 1 sentence(s) with conllu library
+Text: राम खाता है
+Words: ['राम', 'खाता', 'है']
+Result: Test 2B passed!
+
+Test 3: Trigram Model
+Surprisal: [0.95, 1.11, 0.11, 0.11]
+Total: 2.29 bits
+Result: Test 3 passed!
+
+Test 4: UID Measures
+Info: [2.5, 3.0, 2.8, 3.2, 2.9]
+UIDglob: -0.0536
+UIDloc: -0.108
+UIDglobNorm: -0.0065
+UIDlocNorm: -0.013
+UIDlocPrevNorm: -0.0147
+Result: Test 4 passed!
+
+Test 5: Variant Generator
+Original: राम सेब खाता है
+Generated 0 variants:
+Result: Test 5 passed!
+
+Test 6: Pairwise Classifier
+Accuracy: 100.0%
+Result: Test 6 passed!
+
+Test 7: Cross Validation
+CV Accuracy: 55.0%
+Result: Test 7 passed!
+
+Test 8: Correlation
+Correlation: 1.0000
+Result: Test 8 passed!
+
+Overall Result: === ALL TESTS PASSED ===
